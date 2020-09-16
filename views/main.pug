@@ -1,0 +1,12 @@
+doctype html
+html
+  include head.pug
+  body
+    div.container
+        h1=headingOne
+        p Welcome
+        if showMsg
+          p=message
+        else
+          p No message
+    include footer.pug
