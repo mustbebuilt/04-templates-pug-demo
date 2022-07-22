@@ -1,2 +1,5 @@
-# 04-templates-pug-demo
-Express Pug Templates Demo
+# 04 Templates with PUG
+
+Express Pug Templates Demo an alternative to EJS.
+
+Ensure PUG is installed with npm install pug
