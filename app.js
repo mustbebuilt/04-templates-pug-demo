@@ -5,14 +5,13 @@ const app = express();
 
 const routes = require("./routes/routes");
 
-// set up view engine
+// set up view engine as pug
 
 app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "pug");
 
 app.use(express.static("./public"));
 
-app.use("/", routes());
+app.use("/", routes);
 
 // remove for sample files
 app.use((req, res, next) => {
